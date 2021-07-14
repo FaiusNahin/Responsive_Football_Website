@@ -193,6 +193,7 @@ footer{
     }
     .right-banner{
         width: 100%;
+        padding-left: 15px;
     }
     .right-banner img{
         width: 329px;
@@ -264,6 +265,7 @@ footer{
     }
     .right-banner{
         width: 80%;
+        padding-left: 30px;
     }
     .right-banner img{
         width: 100%;
