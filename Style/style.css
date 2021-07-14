@@ -189,7 +189,7 @@ header{
 .feedback{
     background-color: lightseagreen;
     margin-top: 40px;
-    padding:0px 30px 30px 50px;
+    padding:0px 30px 50px 50px;
 }
 .feedback-container{
     display: grid;
@@ -200,7 +200,7 @@ header{
 .feedback-header h2{
     font-size: 40px;
     font-weight: 600;
-    color: #cc3574dc;
+    color: #cc3574e1;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -227,22 +227,25 @@ header{
     margin:20px 0;
 }
 #name{
-    width: 97%;
+    width: 93%;
     padding: 10px 0px 10px 20px;
     background-color: rgba(132, 143, 153, 0.404);
     border: 1px solid lightsalmon;
+    font-size: 16px;
 }
 #email{
-    width: 97%;
+    width: 93%;
     background-color: rgba(132, 143, 153, 0.404);
     border: 1px solid lightsalmon;
     padding: 10px 0px 10px 20px;
+    font-size: 16px;
 }
 .form textarea{
-    width: 100%;
     padding: 10px 0px 10px 20px;
     background-color: rgba(132, 143, 153, 0.404);
     border: 1px solid lightsalmon;
+    font-size: 16px;
+    
 }
 .feedback-form a{
     text-decoration: none;
