@@ -163,3 +163,39 @@ footer{
     margin: 0;
 }
 /* footer style end */
+/*-----------------
+ Media Queries 
+ ------------------*/
+ /* Mobile Device */
+ @media only screen and (max-width:688px){
+     header{
+         display: none;
+         margin: 0;
+        padding: 0;
+     }
+     .mid-container{
+         width: 100%;
+         margin: 0;
+         padding: 0;
+     }
+     .top-players{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+     .players{
+         width: 80%;
+     }
+     footer{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+     }
+     .footer-container{
+         width: 100%;   
+     }
+     .footer-logo img{
+        width: 85%;
+     }
+     
+ }
+    
