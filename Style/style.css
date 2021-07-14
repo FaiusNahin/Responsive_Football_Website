@@ -175,18 +175,21 @@ footer{
         width: 100%;
         margin: 0;
         padding: 0;
-        padding-top: 100px;
-        padding-bottom: 180px;
-        padding-left: 20px;
+        margin-bottom: 39px;
     }
     .banner{
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
+        padding-bottom: 45px;
+        padding-left: 20px;
     }
     .left-banner{
         width: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
+    }
+    .left-banner h1{
+        font-size: 45px;
     }
     .right-banner{
         width: 100%;
@@ -196,7 +199,7 @@ footer{
         height: 260px;
     }
     .right-banner:hover {
-        transform: rotate(360deg) scale(1.2);
+        transform: rotate(360deg) scale(1.15);
         transition: transform 3s ease-in-out;
     }
     /* Fot Top-Players */
@@ -224,7 +227,7 @@ footer{
         padding: 0;
      }
      .footer-container{
-         width: 100%;   
+         width: 95%;   
      }
      .footer-logo img{
         width: 80%;
@@ -245,8 +248,6 @@ footer{
         width: 100%;
         margin: 0;
         padding: 0;
-        padding-bottom: 250px;
-        padding-left: 70px;
         margin-bottom: 20px;
     }
     .banner{
@@ -254,13 +255,15 @@ footer{
         grid-template-columns: 1fr;
         justify-items: flex-start;
         align-content: flex-start;
+        padding-bottom: 250px;
+        padding-left: 70px;
     }
     .left-banner{
         width: 85%;
         margin-bottom: 100px;
     }
     .right-banner{
-        width: 70%;
+        width: 80%;
     }
     .right-banner img{
         width: 100%;
