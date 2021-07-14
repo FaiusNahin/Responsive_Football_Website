@@ -168,9 +168,40 @@ footer{
  ------------------*/
  /* Mobile Device */
  @media only screen and (max-width:688px){
-     header{
-         display: none;
-     }
+    header{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 250px;
+        padding-left: 70px;
+        margin-bottom: 20px;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        
+    }
+    .left-banner{
+        width: 80%;
+        margin-bottom: 100px;
+    }
+    .left-banner h1{
+        width: 50%;
+    }
+    .right-banner{
+        width: 100%;
+    }
+    .right-banner img{
+        width: 100%;
+    }
+    .mid-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
      .mid-container{
          width: 100%;
          margin: 0;
@@ -203,14 +234,39 @@ footer{
  }
  /* tablet devices */
  @media only screen and (min-width:688px) and (max-width:992px){
+     /* For Header */
     header{
-        display: none;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 250px;
+        padding-left: 70px;
+        margin-bottom: 20px;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: flex-start;
+        align-content: flex-start;
+    }
+    .left-banner{
+        width: 85%;
+        margin-bottom: 100px;
+    }
+    .right-banner{
+        width: 70%;
+    }
+    .right-banner img{
+        width: 100%;
     }
     .mid-container{
         width: 100%;
         margin: 0;
         padding: 0;
     }
+    /* For Top-Players */
     .top-players{
        display: grid;
        grid-template-columns: repeat(2,1fr);
@@ -219,6 +275,7 @@ footer{
     .players{
         width: 90%;
     }
+    /* For Footer */
     footer{
        width: 100%;
        margin: 0;
