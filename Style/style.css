@@ -75,7 +75,7 @@ header{
 }
 /* Banner style ends */
 
-/* Players Style Start */
+/* Top Players Style Start */
 .mid-container{
     margin-top: 70px;
 }
@@ -116,7 +116,7 @@ header{
     padding-top: 10px;
     font-family: 'Poppins', sans-serif;
 }
-/* Players Style End */
+/* Top Players Style End */
 
 /* Photo Album Start*/
 .album{
@@ -174,7 +174,7 @@ header{
     font-size: 180px;
     font-weight: 600;
     line-height: .52em;
-    color: #d11c6769;
+    color: #d11c677a;
 }
 .photo-frame:hover .photo-detail {
     display: block;
@@ -185,7 +185,78 @@ header{
 }
 /* Photo Album Ends */
 
-/* footer style start */
+/* Feedback Style Start */
+.feedback{
+    background-color: lightseagreen;
+    margin-top: 40px;
+    padding:0px 30px 30px 50px;
+}
+.feedback-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    justify-items: center;
+}
+.feedback-header h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #cc3574dc;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.feedback-header hr{
+	margin: 0;
+    border: 0;
+    border-bottom: 3.5px solid yellowgreen;
+	width:50px;
+	padding:3px 0;
+    margin-left:43%;
+    text-align: center;	
+}
+.feedback-header p{
+    font-size:16px ;
+    text-align: center;
+    color: whitesmoke;
+}
+.feedback-form{
+    display: grid;
+    grid-template-columns:1fr ;
+    justify-items: center;
+}
+.form{
+    margin:20px 0;
+}
+#name{
+    width: 97%;
+    padding: 10px 0px 10px 20px;
+    background-color: rgba(132, 143, 153, 0.404);
+    border: 1px solid lightsalmon;
+}
+#email{
+    width: 97%;
+    background-color: rgba(132, 143, 153, 0.404);
+    border: 1px solid lightsalmon;
+    padding: 10px 0px 10px 20px;
+}
+.form textarea{
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    background-color: rgba(132, 143, 153, 0.404);
+    border: 1px solid lightsalmon;
+}
+.feedback-form a{
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 30%;
+    color: whitesmoke;
+    background-color: lightsalmon;
+    font-size: 23px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+/* Feedback Style End */
+
+/* Footer style start */
 footer{
     display: flex;
     align-items: center;
@@ -229,7 +300,7 @@ footer{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-/* footer style end */
+/* Footer style end */
 /*-----------------
  Media Queries 
  ------------------*/
@@ -300,6 +371,14 @@ footer{
         justify-items: center;
         margin: 0;
         padding: 0;
+     }
+     /* For Feedback */
+     .feedback{
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         margin-top: 20px;
+         padding-bottom: 50px;
      }
      /* For Footer */
      footer{
@@ -379,6 +458,14 @@ footer{
         margin: 0;
         padding: 0;
      }
+     /* For Feedback */
+     .feedback{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
     /* For Footer */
     footer{
        width: 100%;
