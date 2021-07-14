@@ -168,34 +168,38 @@ footer{
  ------------------*/
  /* Mobile Device */
  @media only screen and (max-width:688px){
+     /* For Banner */
     header{
         display: flex;
         flex-direction: row;
         width: 100%;
         margin: 0;
         padding: 0;
-        padding-bottom: 250px;
-        padding-left: 70px;
-        margin-bottom: 20px;
+        padding-top: 100px;
+        padding-bottom: 180px;
+        padding-left: 20px;
     }
     .banner{
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
-        
     }
     .left-banner{
         width: 100%;
         margin-bottom: 100px;
     }
-    
     .right-banner{
         width: 100%;
     }
     .right-banner img{
         width: 329px;
-        height: 259.17px;
+        height: 260px;
     }
+    .right-banner:hover {
+        transform: rotate(360deg) scale(1.2);
+        transition: transform 3s ease-in-out;
+    }
+    /* Fot Top-Players */
     .mid-container{
         width: 100%;
         margin: 0;
@@ -213,6 +217,7 @@ footer{
      .players{
          width: 80%;
      }
+     /* For Footer */
      footer{
         width: 100%;
         margin: 0;
