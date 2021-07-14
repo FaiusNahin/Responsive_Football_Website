@@ -185,17 +185,16 @@ footer{
         
     }
     .left-banner{
-        width: 80%;
+        width: 100%;
         margin-bottom: 100px;
     }
-    .left-banner h1{
-        width: 50%;
-    }
+    
     .right-banner{
         width: 100%;
     }
     .right-banner img{
-        width: 100%;
+        width: 329px;
+        height: 259.17px;
     }
     .mid-container{
         width: 100%;
