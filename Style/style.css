@@ -121,6 +121,8 @@ header{
 /* Photo Album Start*/
 .album{
     margin-top: 50px;
+    margin: 0;
+    padding:0;
 }
 .album-title{
     font-size: 40px;
@@ -137,7 +139,7 @@ header{
     margin: 15px;
     overflow: hidden;
     border-radius: 5px;
-    box-shadow: 10px 10px 40px rgb(201, 201, 201);
+    
 }
 .photo img{
     height: 330px;
@@ -296,6 +298,8 @@ footer{
      .photo-album{
         grid-template-columns: 1fr;
         justify-items: center;
+        margin: 0;
+        padding: 0;
      }
      /* For Footer */
      footer{
@@ -371,6 +375,9 @@ footer{
         grid-template-columns: repeat(2,1fr);
         column-gap: 0px;
         justify-items: center;
+        align-content: center;
+        margin: 0;
+        padding: 0;
      }
     /* For Footer */
     footer{
